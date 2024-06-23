@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "مالا يسع المهندس جهله: إدارة المخاطر",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "ar-SA",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
@@ -22,8 +22,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Almarai",
+        body: "Tajawal",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -38,15 +38,15 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          light: "#222831",       // Gunmetal
+          lightgray: "#393E46",   // Onyx
+          gray: "#00ADB5",        // Verdigris
+          darkgray: "#D6D6D6",    // Timberwolf
+          dark: "#90C0FF",        // Jordy Blue
+          secondary: "#DECAB0",   // Dun
+          tertiary: "#C4DEB0",    // Tea Green
           highlight: "rgba(143, 159, 169, 0.15)",
-        },
+      },
       },
     },
   },
