@@ -21,12 +21,7 @@ export default (() => {
     return (
       <head>
         <head>
-	...
-    <script 
-	src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
-	</script>
-	<script>quizdown.init();</script>
-	...
+
 </head>
         <title>{title}</title>
         <meta charSet="utf-8" />
